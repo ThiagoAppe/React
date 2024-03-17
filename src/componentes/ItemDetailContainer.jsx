@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { ItemDetail } from "./ItemDetail";
+import React, { useEffect, useState } from "react";
+import ItemDetail from "./ItemDetail"; // Change import statement
 import products from '../utils/MocksAsync.json';
 import { apiCall } from "../utils/apiCall";
 
@@ -9,11 +9,8 @@ const ItemDetailContainer = () => {
 
   useEffect(() => {
     setLoading(true);
-    // Simular una llamada a la API para obtener los productos
     apiCall(products).then(resp => {
-      // Obtener el ID del producto de la URL
       const productId = parseInt(window.location.pathname.split('/').pop());
-      // Encontrar el producto correspondiente al ID
       const foundProduct = resp.productos.find(product => product.id === productId);
       setProduct(foundProduct);
       setLoading(false);
@@ -24,7 +21,7 @@ const ItemDetailContainer = () => {
 
   return (
     <div>
-      {product ? <ItemDetail item={product} /> : <p>Producto no encontrado</p>}
+      {product ? <ItemDetail item={product} /> : <p>Product not found</p>}
     </div>
   );
 }
