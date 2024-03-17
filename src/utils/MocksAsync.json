@@ -1,0 +1,161 @@
+{
+  "categorias": [
+    { "id": 1, "nombre": "Limpieza" },
+    { "id": 2, "nombre": "Cosmeticos" },
+    { "id": 3, "nombre": "Capilar" },
+    { "id": 4, "nombre": "Coloracion" },
+    { "id": 5, "nombre": "Higiene Personal" }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Lavandina",
+      "descripcion": "¡Destruye la suciedad y los gérmenes con un poder sin igual! ¡Haz que tu hogar brille como nunca antes!",
+      "precio": 3.99,
+      "stock": 100,
+      "imagen": "https://cordoba.parodisrl.com.ar/42326-large_default/lavandina-ayudin-clasica-4000cc.jpg",
+      "isOnDiscount": false,
+      "categoria": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Detergente",
+      "descripcion": "La solución definitiva para eliminar las manchas más difíciles de tu ropa. ¡Deja tu ropa impecable y con un aroma fresco!",
+      "precio": 2.49,
+      "stock": 75,
+      "imagen": "https://perfumeriaburbujas.com.ar/wp-content/uploads/magistral-750.jpg",
+      "isOnDiscount": true,
+      "categoria": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Limpia vidrios",
+      "descripcion": "Consigue cristales impecables en tus ventanas y espejos con este limpiador especializado. ¡Sin marcas ni rayas!",
+      "precio": 1.99,
+      "stock": 120,
+      "imagen": "https://acdn.mitiendanube.com/stores/001/117/350/products/bidones-central-limpieza-limpia-vidrios1-c7d1023c4af297a0e016857139381676-480-0.png",
+      "isOnDiscount": true,
+      "categoria": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Sombras",
+      "descripcion": "Explora una gama de tonos y texturas para crear looks espectaculares. ¡Destaca tu mirada con estilo y elegancia!",
+      "precio": 9.99,
+      "stock": 200,
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_764951-MLA50207328708_062022-O.webp",
+      "isOnDiscount": false,
+      "categoria": 2
+    },
+    {
+      "id": 5,
+      "nombre": "Labiales",
+      "descripcion": "Añade un toque de color y brillo a tus labios con nuestra colección de labiales. ¡Luce radiante en cualquier ocasión!",
+      "precio": 5.49,
+      "stock": 50,
+      "imagen": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQEBAVFRUVFRUXFRUPFRAVFRUQGBUWGBYVFRUYHSggGBolHRYVIjEhJSktLi4uFx8zODMsNygtLisBCgoKDg0OGxAQGi0dHx8rLy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKgBKwMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAABgUHAQMEAgj/xABREAABAwICBAgHDQQJAgcAAAABAAIDBBESIQUGMUEHEyJRcYGRsSMyYXKhssEUJCUzQlJic4Kis8LRFVOT0jQ1Q2N0kqPh4lSDRFVklMPw8f/EABkBAAIDAQAAAAAAAAAAAAAAAAADAgQFAf/EADQRAAIBAgIIBQMEAQUAAAAAAAABAgMRBCESMTJBUWFxgSIzscHwEyORFHKh0UI0Q1KC4f/aAAwDAQACEQMRAD8AuxZWFlRJAhCEACELKABCEIAEIQgAQhCABCEIAEIQgAQhCABCEIAEIQgAQhCABCEIAEIQugCEIXABCEIAEIQgAQhCABCEIAwhCEACELRWz8XG+T5rXO7BdB0iNKa101O8xnE9w8YRgENPMSSM1JaL0lFUx8ZE64vY3FiHcxCqCR5cS4m5JJJ8pNymrg/qSyUsOyS+X0mgEHvVanXblZ7zRr4KMKelFu6LCQo/TtdxFO+UbQLNv885D9epVhLWyOdjdI4u+cXG/UdyuRg5FOnSc1fUW+iyhtV9IOmp2l5u9tg47yLXDj1dy6dP1/uamkmG1reTfe85N9JUJeG99wvRelo7zudIBkSBfZcjPoXpUXVVL5Xl8ji5x2lxuVZuoWknS02CRxLo9hcbkxknDc77WI7EinX03a1i3iME6UNK9+IzoSrrlrUaLDHE1rpXjFy74WN2AkDMk579ygtA6/zOmbHUsYWPIGJgLSwnecyCFZUWyooSauWOhZXiR4AJJsALknYANpXCFz0hVnpLhLl4w+54WcWDkZsZc4c9gRh6M016o6yNr43EswSMID2g3Fjsc0823LclxqRk7IdOhUhHSkhiQha5ZWsaXuIDWgkk7A0C5JTBJsQkep4QGh9o6cuYDtc7CSOe2E2TPoXS0dXFxsdxnZzXbWuG49ozS4VYTdkx1TD1Ka0pKyJBZXl5AFzsG3oSfVa1yl14mtDN2IEkjnOeXQmpXI06cqj8I5IUToHSvulhJaGubtA2HmIW/TekG0tPJO75DSQOd2xreskBceRFwalovWd6FSs+sFW93GGpkuc+S9zWjyBoNgFZOpemHVdNikN5GHC42AxfNdYc47ilwqqTsOq4aVOOk8xhQkLWzTL31DqdjyGxgYsJIxPOZvbaBkLdK16q6UkZO2NzyWOyIcSQCdhF9iU8VFT0bdxiwUnS+pfnYsFcZ0lAH4DKzFstibe/N0rk1p0gaele9ps48lvkLt/ULnqVfXuLqdWroOyDDYT60XJuyLXQozVypMlO2+ZbyT1bPRZSabF3VytODhJxe4EIQgiCEIQBhCEIAFGaym1JN5h7wpNR+sAvSzeYVGey+gyntx6r1KafNhJU7qrV++Yrbnj0mxS3XbVJ6qyWqI/Pb3hUFrRuy2WuT9GWBwgzWgY3neT/AJR/yVfiRqe+ENvg4+l/c39FWcrrOWzTeRmYfYRZOpNT4VzBsLB2t/8A0r3wkzWp2M+c+56Gj/kFEcHrvDjzXdykOE7xIf8AudzFWxLyYQiv1UV81FcYwnvUGq98YBsMZHZY+wqtXvOJO/Bs69W3of6pVCnlNdTTrrSoy6Mi9dqzja2V18g4sHQ3k+y/WuDQ8QdML7Ghzj1NNvTZaNPyeEe7ncT2lcFJXubsO3LqWqnkZSVlYv8A0BVcdSxSHMlgv5wyPpCjNfq3iaCSxsX2jH2vG+6HLHB8/FQR9Lu9RHC1JanhbzyE9jCPzJNR2TEQinVS5lT4068G1QYqll9kpcw9FsvvAJEElnJi1erbVVPbdLHb/MFSXhlc1J2lBrky+Eq8IlfxVHgBzlcG/ZHKd3Adaa1XHCtMccDPoyHtLR7FarO0GZmGjpVY/n8Ci03FwnPg7nLHlh2SBxHSy1vRi7FXtPVWOE7Lpy1WqffMNtzgO0Ee1Z1OWhNPmbdeOnSkuT/sdtb6riqOQja4YB9rb6LqvqCUOYOcZJt4SJLUzBzv7mn9VW+jalwdktdPMz8Ivt34ssLVR+CQfSuPRl6bLXwr1hZSMjHy5LnzWj9SOxaNAzkyR+c3vC5OGV3JgH1n5FGrlEjVh9+LfywhUdSHNwk5hWLwc1AbK+O+RixHpa7/AJFVFSyHErH4OnHjnH+5k7gqcXaaH1c6UuhDVmkT7pdIflOcT1m6lqCdt8bTzW6bpU0mfCdal9DHYs+o3rL8NeiPHCJU3ghHzru+623eUnaMrA4Bp3Jl4QD4GnH917GpJ0Z4yvVXeRVwaUaStz9S1NTJbtkG67T6CPYmRK2o2yT7PtTSrVDy0ZuMVq8u3ogQhCYVgQhCAMIQhAAorWOpZHSyl5tdjhkHHMiwyA2Z7dgUquHSA5TetLqy0YNk6avJFFV9Uw7HDtC6tXKxgmab35QyGZ27grQ0toKnqG4ZIxtvdnJcfIXDOyi3UMdPKGRAtaQ4GznZiw259KyqtdU43aes2adVzdrHbrtO2Smie29i45OBa4XbexBzB8irKoPKVp6S0SKlpjfI9rWv5IjLBYWA3tN1V2tFIymr/cjTK60bZC5z4xk4uFgBH5PStalio6OespU7QVhy4Pf6Q3od6pUnwn+JD0ydzFFavUbYXNLS/FjYMReQAHMa7Y0A/Ktt/RSmttJUV0cfEsbyC/4x1i65AuLC3yfSq88XTrReiyei414zer/xlUTeMnjg0/pbeh3qlJlbRyMqTTudHxjTZzWvuWkgEA5cxHanXU2B9NK2aRzAOU3DaXFcck3BaALXG0pF1GabZcnUjKlJJ3un6CprD4z+k96XmPzCmtYKlpe+zgRc7COdLYqG3Ge9a24zT6E4Nj8Hs853sUPwunwUHnP9VqkuDGoY6ga0OBIc64BFwDa1xuUXwwHwUHnSeq1Jq7LFU/P7lQPdylMavv8AfdP9dF67VCvPKUrq8735TfXxfiNVPejR/wAX0PpBVjwsH3xB9W71lZyq3haPvmD6t3rKziPL/BQwXnLv6CEPGTlqf/SYfPb3pMaeWnLU0e+ofPCzVtrqvU2v9uXR+g0cKR97x+ee5VrQ+MrE4UqhghjaXDFicbXF7Wte3Nt7FWlBM3FtWtvM/C+Uu5YOrgvJH5ze8Lk4ZnfEDyP72rp1anYJGEuAs5u0jnC4+FCnmqnN4prbRNN7vAdY53IcAOwnqUcRKKjZu1wqJ/Wi+RV9L4yszg6HhJDzQSflVb09JMJTHgbibtHGwZW235Sf9UJJIXSAhhLoywthmp3yNxuAza1xw5jabKppJSTJyacHHeKukPjOtTeh9y4daNGspwZeMeRhY6xazFZ7iANvOt+hZYw5rC6YvdewjZEfFBLrlz2iwAPsBVLR0o+FlpV4RlmNfCBVMLYWB7SWRgOAIJaSGkA8xtYpN0Y4YtqdNMU7Z4zxsbHYTgaS0F4wvwnlEXzyyFvatOjtQogRJxhzzwubcDyDMelM/URnUcVrSXz4hVOX0qcbjFqO8WeLi5w2FxcgXvl1hNaT9HwCGqZEwNaM78WxrcXJBFyM7dacFoYaV424Gbi3eppcQQhCeVgQhCAMIQhAAuDSO1nSe5d64tIDxekpVfy2MpbaOV6gdL3477Lu2wU88KC0x8aOh3qhYmN8vujTw232J2La7pVRa/s+G3Hnpo/Wcrdp9p6fYqr4R4C3SrZNz6cAec0uv6CFdgr2+cSrLWNOivHZ58P4TE00HiDpPeljRAu6M/SgP+mAmbR/idZ71Twe/r/RZxOpdCm9Is+Hqw88kPfCFYWjY2umGIA2kqDmAc8bRfPpKQdKZabqufjYrdGKFWDokeG+3N6XMTMS/vQ+biFHy5EZwptZBo2SaKONr8cQxcXESA6QB20bxftSVqkxshha9rSJH2dZrWu58ntAcBkRt3p34YRfRMnnxeuEl6mjlUvn+x6sSdqTa5+gqO184ljakudjjBc4jiWmznPIubZ2JtddNVoqPSMYNUXOwSTBuFxYGgSOaLBtr5NG265tSj4SP6lnsUvoU+CP1k34r0rCzk6Su98vYZiElUduC9ykdLQ08dfJTNhcGxziIkyPJLTflDPbku5hp4p4Wsp+WeLe15llOFxe0DkggGxPkXBrD/W1T/i2/mW+od76p/NiB/zg/orMr7uAuMm1my8tVdISVFHHPJbE5pJsLBIraM6bL55ZXROhe6INja0tw5Ovnnv503ahn4Nj81yW+DI+Bqfr3eo1QlOThTu9cbv+DiioSm45Wdl/JWGj5YppS1j5QBtxMjva4AyxbyU2auV8bahrIXTGVoLwXCJjOS3ERflH7u9JWqoHHSnyN9ZqbtUaImqkmBAEbSCN5xs/2PaiaSbfC35GxqzaSvrG+ukNQ88bmLPu0F2G7XkA4b7bAXVXccRWllmBohY+wjjzcY7m/JzzzVnE2cfNn9EhVXgX0g//AA8Y+4FTw05OrO7vr9RtVWhG2QwaH0tM6vjprtbGcQIZHC1xsxxHLDcQzbuITVpBloqgb+L9JjBPpce1Lmq1Ix9XI8jlRtDm2Oy5LTfqcmbSfxc3lYPUjCMdK8Eunoww99IreljtV1Rt/bfzH2Jz1EhYIsYGbpnNcbmxAe0jLYNqUYz76qvryPuSJ51Nhw00H0pXOPXJbuaFYbvBf9RSXiff1IXXz4h1/wB1T/ila9V6YuqmvzswTE9BL2Z9oXbrpSOkp5AwXIiiNvIyQONuq67tSKY8XK87xYdOJzj7FXw8vst837Daq+4uiJmY3aBzvv8A6rf1THSeKEuyDJnnf/KP0THSeKFCh/qJ9EFfy49zgaPhFo+hftFvYmhQIh9/Nfu4q3WH/wC6nlsYVZPqZ9d30egIQhWRAIQhAGEIWUAYXJX/ACeldi5K/YOn2JdbYZOntI5CFAaa+Mb0O9Qqfcl7TjwZmAEX5Q6+LcbdyxcbnS7o0sLt9icozl1DuCXtZ9ExVE7DK2+GxbmRuIOzpTBQizegAfdCzKwYr2zttVizcVYUmlLMW6UhslvpQgd3sTLQeL1nvSu748eSWP8AOmmjyb1nvKqYJ5vqPxSyRWOseiZP2s6ZjCWSFmIjY1zXsLr82TQU4aLHhT58n5V1VVIS97tgsT05Ln0T8Y76x/c1FWTdanfdclBJU5W5EZwuD4Kk8+L1wkrUnxqXzh3SJ24Wv6ql86L8RqSdSvHpB0erMrtTyn39CpDa+cSxNTB4WP6lil9D/EjzpPxHKJ1P+Nj+pjUvoX4lv2vS4lV8L5S6y9huJ8x9F7lHaadfTFSP/U37CQt039IhP1P5Fy6VHwxU/wCJd6xXXMfCRHyR9zVclq7ewmOruXLqMfg1vkEnoJS5wZn3tUn++d+G1MOpR+Df43e5LfBt/Q6n61/4bUv/ABp/t/ok1nU/cvcq7Vltppvsj/UaFYOpkfveVx2mV1z5BG23eUhauG803nN/EaVZuqVLaiJ3ulceo+DHpaivv7HaWVu5tqcnSeRtT67lWpbavk+oiHaGhWVpHJ0/kbU+s5ImloGs0jM1p2RwX5/7Pb3qlhX96ff1LFby49vQZtVKTDFUVB+VJg+y1mLvcFLaXHIlHQPvRBZ1ZpzJRYWtObyDuueMIJHVYdS6NJxgySN55Gj78S5jNm/NBh3nbqVmG++qr693qSKzaaj4n3PFbYGg+VzAS4+hRVBqyz3a6YHIyFzmEZF3KF/TfqTtPA3JxGbQbHmuM1ZTUkrbkhMvC899xYZTl8jrczR2gFTlBo9sMDmtFsnHnN89pUboPN7vs/hD9UyxKvgo3hfmxmKk07Cy7xIvLhPbKSmGl8UdCh9MRhj42gZXjAH2iVL0x5I6ApUMq8+xytnTidTB4Rq71wReO3r7l3rYw2y+pn1daBCEJ4oEIQgDCyhCABRemavi8IwOfc58XYlo3Gx2hSii9Kt5QOezcSN55knENqm7DaSvNEX+3qXYZmtO8Scgg+XElfTGlIHTh0dS3xr2bZwddmHJ2xp2ZlNEkQ+c7qfIPao2viGA8p+w7ZJP5lk1kpRzNCl4ZZExoipEjC4NI5RFnWvkANxIXTJtUBQwVEEXg3ElxDiyXNrSQLgOawuK2PrK4j4uHsqv5E6D8KuLkvFkRvuhrpg5pBBMTmkb2njCCOpNtJs63esUjTaPqWEPeIxsGKJkofvzONhxb8k06H0gwxjG4tdnfjmlhvc84APUquGg4SalvzG15KUU0ddS3J3mnuUNov453nSd0aktKVQbE9zXNvbK7m2NyBt3dKg9AT4qh+RF3SnMsP7sDxSdwO1drr70DtF/bl83G7hEpRNo2Vl9wI6W8seqkLU6Hl0x5gO6Ye1WjpuEOhIOz2HJKOr+hTALk3sWtFvm43EEnnsR2J9SfgkuXsJjHNP5rJ3VT46If3LP0Urob4hnQofVGS88Y5oWd53qa0SLQR+Y3uScI/tLq/YZidt9F7lF6Sz0vU/4h/eVukHhIT5I+9q11zPheo+vlPYXfottSLSsB5mjsIHsKuvNdvYQvcuXUz+rD/3+9yXeDc2pKj6w/hhMOpx+DHdNR6zkv8HLb004Pzx2cU1Kls0/2k3rn+4rfQ8RbVVAtslFugSf7K6NVaTBRxgjPDiz5yS78yrWs0Y6OveWtOGUxkED5V7OGW/K/WrgpmBsYAyAFh0LulpNPl7WITTircxM0j40/RP6bpd1g0NI6tMsbL42sabfOa6LM+TDfsKntJSgTTt+hIfJvU/TUgc7HfLO/VYBZ2HlJVpOPP1LtZLQV+XoiS0ZTNihaxosANyW6p96l7eaSP0uYfYm1uxI9bVNFVJn/aRna3Y057Tmejbs2puNXgSXH2YnC7Uny90NdJGALgZnattSbMcfIe5ceianjImvNhe+VxlZxAB8thn5VjSuk4WRvaZow/A6zS9uK+E/Jvcq0soroJlnIjdBSDG4X+U0Dp4lpt2ApmhSPoukqo3iXDGcybNNXhN24b2LCNnMO9Tx0nUgZQsB3EmoNj0cUl4aH04WYyu9OV0cOs9QBURtLw21nDE0kEjEQAbgA7O1SWiq6ERMHHxmzRsezb2rjpI3yTF0wcSW2vga1rbbhdoOdzz7FJijb/8AcP6LsYWnKa3nG7xUeBsh0tGZxGxr3EeMQx4Y1pB5ReQAR0XU8l00LN4v02/RMDdi0MLNtNMp1opWMoQhWhIIQhAHm69Lk41Z45cudsdSitNOsW9C6+PURp+bxev2JGJkvpMdQT+ojgmlUbXy8h3QVtfKuSqzaRzgrInI0oRzGyI8lvQO5elzU8vIb5re4LLqgKzcr2CrYHYAfnjtFyPSF5rtGRTACVrX22cZHC+1+bE02XPJVAvYPpjuKlCuRd22ElaxCjVej/cRfwKUd0a4paOKklx07Y2Wby2hjWl9ycIaGAAkWOZva6ZitEkTXHlNB2eMAc8+ddbOIg5NYi5pa6jl3Xwvp/Id7wozSWk3vEYipZmYJMZxOprHkObYgSG/jFNnuWMG/Ftvzhrf0XsxtO1oPSAuSs8mvn4Oq61CjqxM6KZvGubGREMrXs1l72INht8vQmrQc7XQR2cDyBsI222KO05StfhbhGYcL2aSPFttG7aoyt1Vmke4mZpFzhBNUwNZ8lobHK1osLbBntUKKV3GKsl7pE6rulJ7/ZsrV8zXaWqc8xLPl0Oeuqvtxod8kOFzuHKG/pKeYtRALkubc72vrSfvTld0Gq7gM3s37qnZfZ8arMs9XCwpWW869Ta1n7JkeTYA1FybWzc62fluAo/g2N6eXIi5j2/UMabfaa4X8i11sU8E0NIJA4VOK5GNthAMbW3LnEgjG03vkRzLNHqtLDfipnxXzIp5IGNv0Cn71CT2VwX9r2D/AJc3cmINHeGGJt8NyCR0DLypiAySczQ9aM/d9R5uKkJ7TCO9bJNDzuHLmlefpvBv5OSWiyhDRjqCd5sgtL4zNJhGMuxsLWFjSASRcufyPaOZTGhNIyxNcJIXOc55dcPg+a0AWxWFg22XN5V3aG0bxRkD2Ri7gQ1guG3FzmbnbffzKWZE0bGgdACVShGOaWfzkNnNyyZGzadkw2ZBY88j4LDseCoqLRjamUmYtcc3DkAsFyTYXLhfoO9NYaOZa5PGb9r2JkrvMXHIiW6twDxWMB8kbBl0Cy3/ALIAsWvwkbCzE2w6nKSui663YDXTxYGhoJIaLXdmSBzrYUNWSF1Aa2HNbgtTBmVsUdQM9AKWUQw5jpUuruE/yKtfcCEIVsSCEIQBHleSVtLV4LVEmmeC5RmlaYygBrsJG+1x2KTLFqdGlzgpqzQyM3F3QtnRE375v8M/zrz+yJP3rf4Z/nTE6Na3MVV4SnwLCxE+JEifCA2+wAdmS1PqF2VGiI3nEQ4E/NfI30NIWg6Di55P4sv6pTw89xNVYHHE/wALGfphMXukKFdoeNhxt4wubmLyykXHkJsVyyaWaDZ2IecyQem1kvRlTyZO8Z5oYnVI50U0wfcjdYJVfpiL963rKltXatsjXlrg4XGY6FHSzOOGWRNlC841m6ncgR2ldrPtflUmVEaYdmz7XsUtvXKL8Uu3oSqbMe4LYAvIXoKwJFHWIn9saNG7BWdvFst7U1WSzp8fC2jvNqvwk0BQl8/LJI82XpCFAkaWeO77PctoWhh5bvs9y3hRi8gZ6WmY8pv2vyrddclZMxpaXva3bbEQL7L7epcqO0TkdZuusErn93wfvo/87P1RFVxvcGse1x5mkHuStK5Ox3MGQQV0s0ewDxpP4jz3odo2M7TJ/EkHcVfVCZW+qjlhhc8kNIHnAnLtW40Enz29jv1XTT0zYxZt/tOc49riStynHCQa8au+rISrO+RHwUDw4Fz2kDc1pB7S4qTusBCsU6caatFCpSctZ7WFhCaRMoQhAHPhQWrYiy4SNJYvJYuiyxZcC5ymNeDCu2yxhRYLnCYF4dTqQwowLliWkRbqYrUacqX4tYMYXNA6pkK6EqOrzMzlRMxbiLgHfmL5b01GELWaRp3JU6CmrDI1tFiS7StWP/CydXEn868O01VjZTS/5Yv5k7nR7CtbtFNO8pH6Pmxn6lcCu62srJSHugkaGfOMQFiRfIOKfbol0I1wti2+RcMmrtUPiq97RuDo43+l1yuLDSg/Cr3JOvGas3axIBZBUYNA6Q/8yb/7eFeTq9WnxtJu+xBTj02Xfp1OBHShxI3Tw+E6E8wqPTE/9Exh6hHai4pRM6uqDI3Y8lhIyIsARYDlOytvKk4tAyjbWyu86On9jVGVGq9S/k6qkLazoD0F68fsWT/qpOpkP8q9R6Ede7qmUjmtAAexl1H6FbgvyH1afE0iGoxucyJrmk5HjAHGw+aW+1bsM/8A0z+p8HteFLxsDQANy2gpqwUUs2/yJlXlcgS2o3U7h5z4R3OKkqCN7W3eACdoBuB1711osm08NGEtJXIyquSswusL1ZFlYsKPKF7shAXMLKELoAhCF2wAsIQgAWVhZQB4QhCABCEIAEIQgAQhC4gBCEIAFhCEAZQhCABYshCACyLIQgDNkWQhAGbIshCACyyhCABZQhAAsIQuoDKwhCEAIQhAAhCEACyhCABCEIOH/9k=",
+      "isOnDiscount": true,
+      "categoria": 2
+    },
+    {
+      "id": 6,
+      "nombre": "Mascara para pestañas",
+      "descripcion": "Consigue unas pestañas más largas, voluminosas y definidas con nuestra máscara de pestañas. ¡Realza tu mirada al instante!",
+      "precio": 4.99,
+      "stock": 80,
+      "imagen": "https://www.mila.com.ar/img_productos/original/08261235_1640Especial-.jpg",
+      "isOnDiscount": true,
+      "categoria": 2
+    },
+    {
+      "id": 7,
+      "nombre": "Shampoo",
+      "descripcion": "Cuida y protege tu cabello con nuestro shampoo especializado. ¡Luce un cabello radiante y lleno de vida en cada lavado!",
+      "precio": 6.99,
+      "stock": 150,
+      "imagen": "https://www.lacoopeencasa.coop/media/lcec/publico/articulos/c/0/a/c0a8346a02f5d817fe8b9da167636c1b",
+      "isOnDiscount": false,
+      "categoria": 3
+    },
+    {
+      "id": 8,
+      "nombre": "Ampollas",
+      "descripcion": "Revitaliza y fortalece tu cabello con nuestras ampollas reparadoras. ¡Devuelve el brillo y la vitalidad perdidos!",
+      "precio": 8.99,
+      "stock": 100,
+      "imagen": "https://i.blogs.es/755239/ampolla-capilar-reparacion-total/650_1200.jpeg",
+      "isOnDiscount": true,
+      "categoria": 3
+    },
+    {
+      "id": 9,
+      "nombre": "Protector térmico",
+      "descripcion": "Protege tu cabello del calor extremo causado por secadores y planchas. ¡Mantén tu cabello sano y protegido!",
+      "precio": 7.49,
+      "stock": 120,
+      "imagen": "https://www.violettacosmeticos.com/media/catalog/product/cache/0122fc6ec3e1f8ad1d60a8c307d0be7f/1/0/100062-thermo-expert---protector-termico-integral.jpg",
+      "isOnDiscount": false,
+      "categoria": 3
+    },
+    {
+      "id": 10,
+      "nombre": "Tinturas",
+      "descripcion": "Explora una amplia gama de colores para cambiar tu look. ¡Transforma tu cabello y destaca tu estilo personal!",
+      "precio": 12.99,
+      "stock": 80,
+      "imagen": "https://www.stockinlavanda.com.ar/35964-thickbox_default/tintura-professional-color-70-gr-issue-professional.jpg",
+      "isOnDiscount": true,
+      "categoria": 4
+    },
+    {
+      "id": 11,
+      "nombre": "Matizador",
+      "descripcion": "Neutraliza los tonos no deseados en tu cabello y consigue un color perfecto. ¡Logra un cabello radiante y uniforme!",
+      "precio": 9.49,
+      "stock": 60,
+      "imagen": "https://perfugroupar.vtexassets.com/arquivos/ids/190409/7509552815269-1_1000x1000px.jpg?v=638242553567200000",
+      "isOnDiscount": false,
+      "categoria": 4
+    },
+    {
+      "id": 12,
+      "nombre": "Tono sobre tono",
+      "descripcion": "Añade profundidad y brillo a tu cabello con nuestro tono sobre tono. ¡Logra un color vibrante y duradero sin compromisos!",
+      "precio": 10.99,
+      "stock": 90,
+      "imagen": "https://vlasy.com.ar/wp-content/uploads/2021/09/Diseno-sin-titulo-2022-10-18T113124.239.png",
+      "isOnDiscount": true,
+      "categoria": 4
+    },
+    {
+      "id": 13,
+      "nombre": "Jabón líquido",
+      "descripcion": "Limpia y protege tu piel con nuestro jabón líquido suave y refrescante. ¡Mantén tu piel limpia y saludable todos los días!",
+      "precio": 3.49,
+      "stock": 110,
+      "imagen": "https://acdn.mitiendanube.com/stores/001/130/470/products/algabo-jabon-liquido-x300-antibacterial-77912740008741-4946e2f9b4480b286b16582594469911-640-0.png",
+      "isOnDiscount": false,
+      "categoria": 5
+    },
+    {
+      "id": 14,
+      "nombre": "Dentífrico",
+      "descripcion": "Refresca tu aliento y protege tu salud dental con nuestro dentífrico de última generación. ¡Sonríe con confianza en todo momento!",
+      "precio": 2.99,
+      "stock": 70,
+      "imagen": "data:image/png;base64,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",
+      "isOnDiscount": true,
+      "categoria": 5
+    },
+    {
+      "id": 15,
+      "nombre": "Enjuague bucal",
+      "descripcion": "Elimina las bacterias y refresca tu aliento con nuestro enjuague bucal especializado. ¡Mantén tu boca sana y protegida!",
+      "precio": 4.49,
+      "stock": 100,
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/238100/164235_enj-bucal-colgate-plax-ice-infinity-x-500ml-al-precio-de-350-ml__imagen-1.jpg?v=638131181260270000",
+      "isOnDiscount": true,
+      "categoria": 5
+    }
+  ]
+}
